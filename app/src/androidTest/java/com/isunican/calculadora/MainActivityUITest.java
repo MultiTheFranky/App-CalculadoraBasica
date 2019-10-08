@@ -42,6 +42,6 @@ public class MainActivityUITest {
         onView(withId(R.id.btnCalcula)).perform(click(), closeSoftKeyboard());
 
         // Check behaviour
-        onView(withId(R.id.txtResultado)).check(matches(withText("7.0")));
+        onView(withId(R.id.txtResultado)).check(matches(withText("5.0")));
     }
 }
