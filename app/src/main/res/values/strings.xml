@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Calculadora</string>
     <string name="title_simple">Calculadora Simple</string>
+    <string name="title_complex">Calculadora Real</string>
     <string name="title_acercade">Acerca de</string>
     <string name="calcula">Calcula</string>
-    <string name="resultado">Resultado...</string>
+    <string name="resultado">Resultado…</string>
     <string name="operador">Operador</string>
     <string name="error_sinvalores">Introduce los valores</string>
     <string-array name="operacionesArray">
@@ -13,4 +14,21 @@
         <item>/</item>
     </string-array>
     <string name="acercaDe_texto">Aplicación realizada por Carlos Blanco</string>
+    <string name="zero_num">0</string>
+    <string name="one_num">1</string>
+    <string name="two_num">2</string>
+    <string name="three_num">3</string>
+    <string name="four_num">4</string>
+    <string name="five_num">5</string>
+    <string name="six_num">6</string>
+    <string name="seven_num">7</string>
+    <string name="eight_num">8</string>
+    <string name="nine_num">9</string>
+    <string name="div">/</string>
+    <string name="mul">*</string>
+    <string name="res">-</string>
+    <string name="sum">+</string>
+    <string name="equal">=</string>
+    <string name="clear">Limpiar</string>
+    <string name="point">.</string>
 </resources>

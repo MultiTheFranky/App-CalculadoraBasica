@@ -73,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.navigation_complex:
+                intent = new Intent(this,CalculadoraReal.class);
+                startActivity(intent);
+                break;
             case R.id.navigation_acercade:
                 intent = new Intent(this, AcercaDe.class);
                 startActivity(intent);

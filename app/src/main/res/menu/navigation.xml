@@ -7,6 +7,10 @@
         android:title="@string/title_simple" />
 
     <item
+        android:id="@+id/navigation_complex"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/title_complex" />
+    <item
         android:id="@+id/navigation_acercade"
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="@string/title_acercade" />
