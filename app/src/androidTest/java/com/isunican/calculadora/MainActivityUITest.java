@@ -29,6 +29,7 @@ public class MainActivityUITest {
 
     @Test
     public void sumaTest() {
+
         // Type operators
         onView(withId(R.id.txtOperador2)).perform(replaceText("2.0"));
         onView(withId(R.id.txtOperador1)).perform(replaceText("3.0"));
@@ -41,6 +42,6 @@ public class MainActivityUITest {
         onView(withId(R.id.btnCalcula)).perform(click(), closeSoftKeyboard());
 
         // Check behaviour
-        onView(withId(R.id.txtResultado)).check(matches(withText("5.0")));
+        onView(withId(R.id.txtResultado)).check(matches(withText("7.0")));
     }
 }
